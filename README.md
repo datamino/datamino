@@ -1,4 +1,4 @@
-[![MasterHead](https://images.app.goo.gl/cqG1U63AGYudxnqj7)
+[![MasterHead]([https://images.app.goo.gl/cqG1U63AGYudxnqj7](https://github.com/Ashutosh-PMishra/Ashutosh-PMishra/blob/main/Github%20Banner.png))
 <h1 align="center">Hi 👋, I'm Muhammad Tayyab</h1>
 <h3 align="center">Yes,data is everything.</h3>
 
