@@ -1,7 +1,6 @@
 <h1 align="center">Hi 👋, I'm Muhammad Tayyab</h1>
 <h3 align="center">Yes,data is everything.</h3>
-<img align="right" alt="coding" width="40" src="https://www.google.com/search?q=animated+coding+gif&client=ms-android-oppo-rev1&prmd=ivn&sxsrf=ALiCzsYrf-1m5Bo9FZz2mEIQsODXY1hI9w:1661682996822&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi6qITGq-n5AhUbX_EDHTiqCrkQ_AUoAXoECAIQAQ&biw=360&bih=716&dpr=2#imgrc=XialIsv7hGa1mM&imgdii=cqHdv6fw8Pf5GM">
-
+<img align="right" alt="coding" width="40" src="https://images.app.goo.gl/8FD8ANjZCvLsGrbK8">
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=datamino&label=Profile%20views&color=0e75b6&style=flat" alt="datamino" /> </p>
 
 <p align="left"> <a href="https://twitter.com/datamino_" target="blank"><img src="https://img.shields.io/twitter/follow/datamino_?logo=twitter&style=for-the-badge" alt="datamino_" /></a> </p>
