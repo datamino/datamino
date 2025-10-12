@@ -9,11 +9,11 @@
 <div align="center">
 
 <a href="https://github.com/datamino/emotion-detection-mlops">
-  <img src="https://github.com/datamino/datamino/blob/main/assets/twitter-button.png" alt="Project 1" width="200">
+  <img src="https://github.com/datamino/datamino/blob/main/assets/twitter-button.png" alt="Project 1" width="30">
 </a>
 
 <a href="https://github.com/datamino/emotion-detection-mlops">
-  <img src="https://github.com/datamino/datamino/blob/main/assets/linkedin-button1.png" alt="Project 1" width="200">
+  <img src="https://github.com/datamino/datamino/blob/main/assets/linkedin-button1.png" alt="Project 1" width="30">
 </a>
 
 
