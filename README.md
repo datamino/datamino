@@ -2,7 +2,7 @@
 <div align="center" ><img width="100%" alt="Welcome to my profile!" src="https://github.com/Carol42/Carol42/blob/main/assets/header.png"></div>
 
 <div align="center">
-    <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Roboto+Slab&color=%237E3ACE&size=30&center=true&vCenter=true&width=450&lines=I'm+Muhammad+Tayyab;He/him;BS+Artificial+Intelligence+Student;MLOPs+Engineer+AI+Engineer" alt="Computer Engineering Student, Brazilian front-end developer, Power Metal lover"></a>
+    <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Roboto+Slab&color=%237E3ACE&size=30&center=true&vCenter=true&width=450&lines=I'm+Muhammad+Tayyab;He/him;BS+Artificial+Intelligence+Student;MLOPs+Engineer+AI+Engineer" alt="Muhammad Tayyab"></a>
 </div>
 
 <a href="https://github.com/Carol42/Carol42/actions/workflows/lastfm.yml"><img src="https://github.com/Carol42/Carol42/actions/workflows/lastfm.yml/badge.svg" alt="lastfm-to-markdown workflow status" ></a>
