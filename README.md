@@ -9,8 +9,7 @@
 <div align="center">
 
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
-
-![Keras](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=Keras&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-%23FF6F00.svg?style=for-the-badge&logo=Keras&logoColor=white)
 
 
 <!-- 
