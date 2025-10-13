@@ -117,147 +117,52 @@
 
 
 
-
-
-
-
-
 # My Statistics
 
-<div class="row row-1">
-  <div class="number-box">1.</div>
-  <div class="text-box">
-    <div class="title">FIRST ROW TEXT FIELD</div>
-    <div class="subtitle">long table headline text place here</div>
+<div style="display: flex; align-items: stretch; margin-bottom: 15px; height: 60px;">
+  <div style="width: 90px; display: flex; align-items: center; justify-content: center; font-size: 2.5rem; font-weight: bold; color: #fff; margin-right: 10px; background: #a4c639;">1.</div>
+  <div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; color: #fff; padding: 10px 20px; margin-right: 10px; background: #a4c639;">
+    <div style="font-size: 1rem; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 3px;">FIRST ROW TEXT FIELD</div>
+    <div style="font-size: 0.75rem; opacity: 0.9;">long table headline text place here</div>
   </div>
-  <div class="percentage-box">100%</div>
+  <div style="width: 120px; display: flex; align-items: center; justify-content: center; font-size: 2rem; font-weight: bold; color: #fff; background: #a4c639;">100%</div>
 </div>
 
-<div class="row row-2">
-  <div class="number-box">2.</div>
-  <div class="text-box">
-    <div class="title">SECOND ROW TEXT FIELD</div>
-    <div class="subtitle">long table headline text place here</div>
+<div style="display: flex; align-items: stretch; margin-bottom: 15px; height: 60px;">
+  <div style="width: 90px; display: flex; align-items: center; justify-content: center; font-size: 2.5rem; font-weight: bold; color: #fff; margin-right: 10px; background: #1f8bad;">2.</div>
+  <div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; color: #fff; padding: 10px 20px; margin-right: 10px; background: #1f8bad;">
+    <div style="font-size: 1rem; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 3px;">SECOND ROW TEXT FIELD</div>
+    <div style="font-size: 0.75rem; opacity: 0.9;">long table headline text place here</div>
   </div>
-  <div class="percentage-box">110%</div>
+  <div style="width: 120px; display: flex; align-items: center; justify-content: center; font-size: 2rem; font-weight: bold; color: #fff; background: #1f8bad;">110%</div>
 </div>
 
-<div class="row row-3">
-  <div class="number-box">3.</div>
-  <div class="text-box">
-    <div class="title">THIRD ROW TEXT FIELD</div>
-    <div class="subtitle">long table headline text place here</div>
+<div style="display: flex; align-items: stretch; margin-bottom: 15px; height: 60px;">
+  <div style="width: 90px; display: flex; align-items: center; justify-content: center; font-size: 2.5rem; font-weight: bold; color: #fff; margin-right: 10px; background: #f5b800;">3.</div>
+  <div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; color: #fff; padding: 10px 20px; margin-right: 10px; background: #f5b800;">
+    <div style="font-size: 1rem; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 3px;">THIRD ROW TEXT FIELD</div>
+    <div style="font-size: 0.75rem; opacity: 0.9;">long table headline text place here</div>
   </div>
-  <div class="percentage-box">120%</div>
+  <div style="width: 120px; display: flex; align-items: center; justify-content: center; font-size: 2rem; font-weight: bold; color: #fff; background: #f5b800;">120%</div>
 </div>
 
-<div class="row row-4">
-  <div class="number-box">4.</div>
-  <div class="text-box">
-    <div class="title">FOURTH ROW TEXT FIELD</div>
-    <div class="subtitle">long table headline text place here</div>
+<div style="display: flex; align-items: stretch; margin-bottom: 15px; height: 60px;">
+  <div style="width: 90px; display: flex; align-items: center; justify-content: center; font-size: 2.5rem; font-weight: bold; color: #fff; margin-right: 10px; background: #e85d4f;">4.</div>
+  <div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; color: #fff; padding: 10px 20px; margin-right: 10px; background: #e85d4f;">
+    <div style="font-size: 1rem; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 3px;">FOURTH ROW TEXT FIELD</div>
+    <div style="font-size: 0.75rem; opacity: 0.9;">long table headline text place here</div>
   </div>
-  <div class="percentage-box">130%</div>
+  <div style="width: 120px; display: flex; align-items: center; justify-content: center; font-size: 2rem; font-weight: bold; color: #fff; background: #e85d4f;">130%</div>
 </div>
 
-<div class="row row-5">
-  <div class="number-box">5.</div>
-  <div class="text-box">
-    <div class="title">FIFTH ROW TEXT FIELD</div>
-    <div class="subtitle">long table headline text place here</div>
+<div style="display: flex; align-items: stretch; margin-bottom: 15px; height: 60px;">
+  <div style="width: 90px; display: flex; align-items: center; justify-content: center; font-size: 2.5rem; font-weight: bold; color: #fff; margin-right: 10px; background: #2c5f77;">5.</div>
+  <div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; color: #fff; padding: 10px 20px; margin-right: 10px; background: #2c5f77;">
+    <div style="font-size: 1rem; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 3px;">FIFTH ROW TEXT FIELD</div>
+    <div style="font-size: 0.75rem; opacity: 0.9;">long table headline text place here</div>
   </div>
-  <div class="percentage-box">140%</div>
+  <div style="width: 120px; display: flex; align-items: center; justify-content: center; font-size: 2rem; font-weight: bold; color: #fff; background: #2c5f77;">140%</div>
 </div>
-
-<style>
-.row {
-  display: flex;
-  align-items: stretch;
-  margin-bottom: 15px;
-  height: 60px;
-}
-
-.number-box {
-  width: 90px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 2.5rem;
-  font-weight: bold;
-  color: #fff;
-  margin-right: 10px;
-}
-
-.text-box {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  padding: 10px 20px;
-  margin-right: 10px;
-}
-
-.text-box .title {
-  font-size: 1rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-bottom: 3px;
-}
-
-.text-box .subtitle {
-  font-size: 0.75rem;
-  opacity: 0.9;
-}
-
-.percentage-box {
-  width: 120px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 2rem;
-  font-weight: bold;
-  color: #fff;
-}
-
-/* Row 1 - Green */
-.row-1 .number-box,
-.row-1 .text-box,
-.row-1 .percentage-box {
-  background: #a4c639;
-}
-
-/* Row 2 - Blue */
-.row-2 .number-box,
-.row-2 .text-box,
-.row-2 .percentage-box {
-  background: #1f8bad;
-}
-
-/* Row 3 - Yellow */
-.row-3 .number-box,
-.row-3 .text-box,
-.row-3 .percentage-box {
-  background: #f5b800;
-}
-
-/* Row 4 - Red */
-.row-4 .number-box,
-.row-4 .text-box,
-.row-4 .percentage-box {
-  background: #e85d4f;
-}
-
-/* Row 5 - Dark Blue */
-.row-5 .number-box,
-.row-5 .text-box,
-.row-5 .percentage-box {
-  background: #2c5f77;
-}
-</style>
-
 
 
 
