@@ -7,21 +7,9 @@
 
 
 <div align="center">
-
-![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-%23FF6F00.svg?style=for-the-badge&logo=Keras&logoColor=white)
-
-![Git badge](https://img.shields.io/badge/git-black?logo=git)
-![Git badge](https://img.shields.io/badge/git-black?logo=git)
-![Git badge](https://img.shields.io/badge/git-black?logo=git)
-![Git badge](https://img.shields.io/badge/git-black?logo=git)
-
-![Static Badge](https://img.shields.io/badge/linkedin?style=for-the-badge&logo=linkedin)
-![Static Badge](https://img.shields.io/badge/mastodon-black?style=for-the-badge&logo=mastodon)
-![Static Badge](https://img.shields.io/badge/mastodon-black?style=for-the-badge&logo=mastodon)
-
-<!-- 
-
+<a href="https://github.com/datamino/emotion-detection-mlops">
+  <img src="https://github.com/datamino/datamino/blob/main/assets/twitter-button.png" alt="Project 1" width="60">
+</a>
 
 ![mlflow](https://img.shields.io/badge/mlflow-%23d9ead3.svg?style=for-the-badge&logo=numpy&logoColor=blue)
 
@@ -40,9 +28,7 @@
 ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)
 ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) -->
 </div>
-<!-- <a href="https://github.com/datamino/emotion-detection-mlops">
-  <img src="https://github.com/datamino/datamino/blob/main/assets/twitter-button.png" alt="Project 1" width="60">
-</a>
+
 
 <!-- <a href="https://github.com/datamino/emotion-detection-mlops">
   <img src="https://github.com/datamino/datamino/blob/main/assets/linkedin-button1.png" alt="Project 1" width="60">
