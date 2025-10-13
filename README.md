@@ -32,8 +32,7 @@
 </div>
 
 ---
-
-<h3>Open source projects</h3>
+<h1>ℹ️Top Projects</h1>
 
 [![Row 1](https://github.com/datamino/datamino/blob/main/assets/v1.png)](https://github.com/datamino/CardioLogic)
 [![Row 2](https://github.com/datamino/datamino/blob/main/assets/v2.png)](https://github.com/datamino/CardioLogic)
@@ -45,7 +44,7 @@
 
 
 
-<h2>ℹ️ Project info</h2>
+
 
 
 <div>
