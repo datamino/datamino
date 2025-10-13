@@ -116,56 +116,8 @@
 
 
 
-
-# My Statistics
-
-<div style="display: flex; align-items: stretch; margin-bottom: 15px; height: 60px;">
-  <div style="width: 90px; display: flex; align-items: center; justify-content: center; font-size: 2.5rem; font-weight: bold; color: #fff; margin-right: 10px; background: #a4c639;">1.</div>
-  <div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; color: #fff; padding: 10px 20px; margin-right: 10px; background: #a4c639;">
-    <div style="font-size: 1rem; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 3px;">FIRST ROW TEXT FIELD</div>
-    <div style="font-size: 0.75rem; opacity: 0.9;">long table headline text place here</div>
-  </div>
-  <div style="width: 120px; display: flex; align-items: center; justify-content: center; font-size: 2rem; font-weight: bold; color: #fff; background: #a4c639;">100%</div>
-</div>
-
-<div style="display: flex; align-items: stretch; margin-bottom: 15px; height: 60px;">
-  <div style="width: 90px; display: flex; align-items: center; justify-content: center; font-size: 2.5rem; font-weight: bold; color: #fff; margin-right: 10px; background: #1f8bad;">2.</div>
-  <div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; color: #fff; padding: 10px 20px; margin-right: 10px; background: #1f8bad;">
-    <div style="font-size: 1rem; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 3px;">SECOND ROW TEXT FIELD</div>
-    <div style="font-size: 0.75rem; opacity: 0.9;">long table headline text place here</div>
-  </div>
-  <div style="width: 120px; display: flex; align-items: center; justify-content: center; font-size: 2rem; font-weight: bold; color: #fff; background: #1f8bad;">110%</div>
-</div>
-
-<div style="display: flex; align-items: stretch; margin-bottom: 15px; height: 60px;">
-  <div style="width: 90px; display: flex; align-items: center; justify-content: center; font-size: 2.5rem; font-weight: bold; color: #fff; margin-right: 10px; background: #f5b800;">3.</div>
-  <div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; color: #fff; padding: 10px 20px; margin-right: 10px; background: #f5b800;">
-    <div style="font-size: 1rem; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 3px;">THIRD ROW TEXT FIELD</div>
-    <div style="font-size: 0.75rem; opacity: 0.9;">long table headline text place here</div>
-  </div>
-  <div style="width: 120px; display: flex; align-items: center; justify-content: center; font-size: 2rem; font-weight: bold; color: #fff; background: #f5b800;">120%</div>
-</div>
-
-<div style="display: flex; align-items: stretch; margin-bottom: 15px; height: 60px;">
-  <div style="width: 90px; display: flex; align-items: center; justify-content: center; font-size: 2.5rem; font-weight: bold; color: #fff; margin-right: 10px; background: #e85d4f;">4.</div>
-  <div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; color: #fff; padding: 10px 20px; margin-right: 10px; background: #e85d4f;">
-    <div style="font-size: 1rem; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 3px;">FOURTH ROW TEXT FIELD</div>
-    <div style="font-size: 0.75rem; opacity: 0.9;">long table headline text place here</div>
-  </div>
-  <div style="width: 120px; display: flex; align-items: center; justify-content: center; font-size: 2rem; font-weight: bold; color: #fff; background: #e85d4f;">130%</div>
-</div>
-
-<div style="display: flex; align-items: stretch; margin-bottom: 15px; height: 60px;">
-  <div style="width: 90px; display: flex; align-items: center; justify-content: center; font-size: 2.5rem; font-weight: bold; color: #fff; margin-right: 10px; background: #2c5f77;">5.</div>
-  <div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; color: #fff; padding: 10px 20px; margin-right: 10px; background: #2c5f77;">
-    <div style="font-size: 1rem; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 3px;">FIFTH ROW TEXT FIELD</div>
-    <div style="font-size: 0.75rem; opacity: 0.9;">long table headline text place here</div>
-  </div>
-  <div style="width: 120px; display: flex; align-items: center; justify-content: center; font-size: 2rem; font-weight: bold; color: #fff; background: #2c5f77;">140%</div>
-</div>
-
-
-
+![Row 2](https://github.com/datamino/datamino/blob/main/assets/r1.png)
+![Row 2](https://github.com/datamino/datamino/blob/main/assets/r2.png)
 
 
 

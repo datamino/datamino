@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+  margin: 0;
+  padding: 40px;
+  background: #1a1a1a;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.editor-section {
+  background: #2a2a2a;
+  padding: 25px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #444;
+  border-radius: 5px;
+  background: #333;
+  color: #fff;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.preview-section {
+  margin: 30px 0;
+  background: #f0f0f0;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.row {
+  display: flex;
+  align-items: stretch;
+  height: 60px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.number-box {
+  width: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.text-box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  padding: 10px 20px;
+  margin-right: 10px;
+}
+
+.text-box .title {
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 3px;
+}
+
+.text-box .subtitle {
+  font-size: 0.75rem;
+  opacity: 0.9;
+}
+
+.percentage-box {
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.btn-download {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: all 0.3s;
+}
+
+.btn-download:hover {
+  background: #45a049;
+  transform: translateY(-2px);
+}
+
+.btn-download:active {
+  transform: translateY(0);
+}
+
+.instructions {
+  background: #fff3cd;
+  border: 1px solid #ffc107;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  color: #856404;
+}
+
+.instructions h3 {
+  margin-top: 0;
+}
+
+.instructions ol {
+  margin: 10px 0;
+  padding-left: 20px;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1>🎨 Row Strip Generator & Downloader</h1>
+  
+  <div class="instructions">
+    <h3>📋 How to Use:</h3>
+    <ol>
+      <li>Fill in the fields below to customize your row</li>
+      <li>Choose your color (hex code like #a4c639 or color name)</li>
+      <li>Click "Download PNG" to save the strip</li>
+      <li>Add the downloaded PNG to your Markdown file using: <code>![alt text](image-name.png)</code></li>
+    </ol>
+  </div>
+
+  <div class="editor-section">
+    <h2>✏️ Customize Your Row</h2>
+    
+    <div class="form-row">
+      <div class="form-group">
+        <label>Number:</label>
+        <input type="text" id="numberInput" value="1." placeholder="1.">
+      </div>
+      
+      <div class="form-group">
+        <label>Background Color:</label>
+        <input type="text" id="colorInput" value="#a4c639" placeholder="#a4c639">
+      </div>
+    </div>
+    
+    <div class="form-group">
+      <label>Title Text:</label>
+      <input type="text" id="titleInput" value="FIRST ROW TEXT FIELD" placeholder="Enter title">
+    </div>
+    
+    <div class="form-group">
+      <label>Subtitle Text:</label>
+      <input type="text" id="subtitleInput" value="long table headline text place here" placeholder="Enter subtitle">
+    </div>
+    
+    <div class="form-group">
+      <label>Percentage:</label>
+      <input type="text" id="percentageInput" value="100%" placeholder="100%">
+    </div>
+  </div>
+
+  <div class="preview-section">
+    <h3 style="text-align: center; color: #333; margin-bottom: 20px;">👁️ Preview</h3>
+    <div class="row" id="previewRow">
+      <div class="number-box" id="previewNumber">1.</div>
+      <div class="text-box" id="previewTextBox">
+        <div class="title" id="previewTitle">FIRST ROW TEXT FIELD</div>
+        <div class="subtitle" id="previewSubtitle">long table headline text place here</div>
+      </div>
+      <div class="percentage-box" id="previewPercentage">100%</div>
+    </div>
+  </div>
+
+  <button class="btn-download" onclick="downloadRow()">⬇️ Download PNG</button>
+
+  <div class="editor-section" style="margin-top: 30px;">
+    <h3>🎨 Popular Colors:</h3>
+    <p style="line-height: 2;">
+      <span style="background: #a4c639; padding: 5px 10px; margin: 3px; display: inline-block; border-radius: 3px; cursor: pointer;" onclick="setColor('#a4c639')">#a4c639 (Green)</span>
+      <span style="background: #1f8bad; padding: 5px 10px; margin: 3px; display: inline-block; border-radius: 3px; cursor: pointer;" onclick="setColor('#1f8bad')">#1f8bad (Blue)</span>
+      <span style="background: #f5b800; padding: 5px 10px; margin: 3px; display: inline-block; border-radius: 3px; cursor: pointer;" onclick="setColor('#f5b800')">#f5b800 (Yellow)</span>
+      <span style="background: #e85d4f; padding: 5px 10px; margin: 3px; display: inline-block; border-radius: 3px; cursor: pointer;" onclick="setColor('#e85d4f')">#e85d4f (Red)</span>
+      <span style="background: #2c5f77; padding: 5px 10px; margin: 3px; display: inline-block; border-radius: 3px; cursor: pointer;" onclick="setColor('#2c5f77')">#2c5f77 (Dark Blue)</span>
+      <span style="background: #6a1fb0; padding: 5px 10px; margin: 3px; display: inline-block; border-radius: 3px; cursor: pointer;" onclick="setColor('#6a1fb0')">#6a1fb0 (Purple)</span>
+    </p>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script>
+// Update preview in real-time
+function updatePreview() {
+  const number = document.getElementById('numberInput').value;
+  const color = document.getElementById('colorInput').value;
+  const title = document.getElementById('titleInput').value;
+  const subtitle = document.getElementById('subtitleInput').value;
+  const percentage = document.getElementById('percentageInput').value;
+  
+  document.getElementById('previewNumber').textContent = number;
+  document.getElementById('previewNumber').style.background = color;
+  
+  document.getElementById('previewTitle').textContent = title;
+  document.getElementById('previewSubtitle').textContent = subtitle;
+  document.getElementById('previewTextBox').style.background = color;
+  
+  document.getElementById('previewPercentage').textContent = percentage;
+  document.getElementById('previewPercentage').style.background = color;
+}
+
+// Set color from quick select
+function setColor(color) {
+  document.getElementById('colorInput').value = color;
+  updatePreview();
+}
+
+// Add event listeners for real-time preview
+document.getElementById('numberInput').addEventListener('input', updatePreview);
+document.getElementById('colorInput').addEventListener('input', updatePreview);
+document.getElementById('titleInput').addEventListener('input', updatePreview);
+document.getElementById('subtitleInput').addEventListener('input', updatePreview);
+document.getElementById('percentageInput').addEventListener('input', updatePreview);
+
+// Download function
+async function downloadRow() {
+  const btn = event.target;
+  const originalText = btn.innerHTML;
+  
+  btn.innerHTML = '⏳ Generating PNG...';
+  btn.disabled = true;
+  
+  try {
+    await document.fonts.ready;
+    await new Promise(resolve => setTimeout(resolve, 100));
+    
+    const rowElement = document.getElementById('previewRow');
+    
+    const canvas = await html2canvas(rowElement, {
+      backgroundColor: null,
+      scale: 3,
+      logging: false,
+      useCORS: true,
+      allowTaint: true,
+      width: rowElement.offsetWidth,
+      height: rowElement.offsetHeight,
+    });
+    
+    // Generate filename based on content
+    const title = document.getElementById('titleInput').value.toLowerCase().replace(/\s+/g, '-');
+    const filename = `row-${title}.png`;
+    
+    const link = document.createElement('a');
+    link.download = filename;
+    link.href = canvas.toDataURL('image/png', 1.0);
+    link.click();
+    
+    btn.innerHTML = '✅ Downloaded!';
+    setTimeout(() => {
+      btn.innerHTML = originalText;
+      btn.disabled = false;
+    }, 2000);
+    
+  } catch (error) {
+    console.error('Error:', error);
+    btn.innerHTML = '❌ Error - Try Again';
+    setTimeout(() => {
+      btn.innerHTML = originalText;
+      btn.disabled = false;
+    }, 3000);
+  }
+}
+</script>
+
+</body>
+</html>
