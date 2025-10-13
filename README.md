@@ -118,6 +118,7 @@
 
 ![Row 2](https://github.com/datamino/datamino/blob/main/assets/r1.png)
 ![Row 2](https://github.com/datamino/datamino/blob/main/assets/r2.png)
+[![Row 2](https://github.com/datamino/datamino/blob/main/assets/r2.png)](https://github.com/datamino/CardioLogic)
 
 
 
