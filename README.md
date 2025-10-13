@@ -115,21 +115,45 @@
 </div>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 <div class="project-strip">
   <span class="project-name">🚀 CardioLogic</span>
 </div>
-
 <div class="project-strip">
   <span class="project-name">🧠 Emotion Detection MLOps</span>
 </div>
-
 <div class="project-strip">
   <span class="project-name">🏙 Real Estate Price Predictor</span>
 </div>
-
+<div class="project-strip">
+  <span class="project-name">💰 Finance Tracker App</span>
+</div>
+<div class="project-strip">
+  <span class="project-name">🎨 AI Art Generator</span>
+</div>
+<div class="project-strip">
+  <span class="project-name">📊 Data Visualization Dashboard</span>
+</div>
+<div class="project-strip">
+  <span class="project-name">🤖 Chatbot Assistant</span>
+</div>
+<div class="project-strip">
+  <span class="project-name">🔐 Password Manager</span>
+</div>
 <style>
 .project-strip {
-  background: linear-gradient(90deg, #e2d9f3, #a37ac7, #6a1fb0, #2b0b46, #0b0313);
+  background: #6a1fb0;
   color: #fff;
   padding: 15px 25px;
   margin: 12px 0;
@@ -137,27 +161,22 @@
   font-family: 'Lucida Console', monospace;
   font-size: 1.1rem;
   letter-spacing: 0.5px;
-  box-shadow: 0 0 10px rgba(100, 0, 255, 0.3);
+  box-shadow: 0 0 10px rgba(106, 31, 176, 0.3);
   display: flex;
   align-items: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
+
+.project-strip:hover {
+  transform: translateX(10px);
+  box-shadow: 0 0 20px rgba(106, 31, 176, 0.6);
+}
+
 .project-name {
   font-weight: bold;
 }
 </style>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
