@@ -10,7 +10,16 @@
   <img src="https://github.com/datamino/datamino/blob/main/assets/x.png" alt="Project 1" height="35px">
 </a>
 <a href="https://github.com/datamino/emotion-detection-mlops">
-  <img src="https://github.com/datamino/datamino/blob/main/assets/fb.png" alt="Project 1" width="50px",>
+  <img src="https://github.com/datamino/datamino/blob/main/assets/x.png" alt="Project 1" height="35px">
+</a>
+<a href="https://github.com/datamino/emotion-detection-mlops">
+  <img src="https://github.com/datamino/datamino/blob/main/assets/x.png" alt="Project 1" height="35px">
+</a>
+<a href="https://github.com/datamino/emotion-detection-mlops">
+  <img src="https://github.com/datamino/datamino/blob/main/assets/x.png" alt="Project 1" height="35px">
+</a>
+<a href="https://github.com/datamino/emotion-detection-mlops">
+  <img src="https://github.com/datamino/datamino/blob/main/assets/x.png" alt="Project 1" height="35px">
 </a>
 
 ![mlflow](https://img.shields.io/badge/mlflow-%23d9ead3.svg?style=for-the-badge&logo=numpy&logoColor=blue)
