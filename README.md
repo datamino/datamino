@@ -31,24 +31,7 @@
 
 </div>
 
-<div style="position:relative;height:16px;background:rgba(57,255,20,.12);border-radius:8px;overflow:hidden;">
-  <div style="
-    position:absolute;top:0;left:-20%;
-    width:20%;height:100%;
-    border-radius:8px;
-    background: #39ff14;
-    box-shadow: 0 0 12px 6px #39ff1480, 0 0 22px 10px #39ff1433;
-    animation: neon-scan 2.4s linear infinite alternate;">
-  </div>
-</div>
-
-<style>
-@keyframes neon-scan {
-  from { transform: translateX(0%);   }
-  to   { transform: translateX(500%); }
-}
-</style>
-
+---
 
 <h2>ℹ️ Project info</h2>
 <div>
