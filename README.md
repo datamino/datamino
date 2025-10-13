@@ -42,6 +42,16 @@
 [![Row 5](https://github.com/datamino/datamino/blob/main/assets/v5.png)](https://github.com/datamino/CardioLogic)
 [![Row 6](https://github.com/datamino/datamino/blob/main/assets/v6.png)](https://github.com/datamino/CardioLogic)
 
+<div style="display: flex; height: 60px; max-width: 700px;">
+  <div style="width: 90px; display: flex; align-items: center; justify-content: center; font-size: 2.5rem; font-weight: bold; color: #fff; background: #a4c639; margin-right: 10px;">1.</div>
+  <div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; color: #fff; background: #a4c639; padding: 10px 20px; margin-right: 10px;">
+    <div style="font-size: 1rem; font-weight: bold; text-transform: uppercase;">YOUR PROJECT NAME</div>
+    <div style="font-size: 1.5rem;">🐍 ⚛️ 🔥</div>
+    <div style="font-size: 0.75rem;">Your description here</div>
+  </div>
+  <div style="width: 120px; display: flex; align-items: center; justify-content: center; font-size: 2rem; font-weight: bold; color: #fff; background: #a4c639;">⭐ 245</div>
+</div>
+
 
 
 
