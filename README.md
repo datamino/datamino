@@ -79,6 +79,43 @@
 
 
 
+<h3 style="color:#39ff14;text-align:center;font-family:'Lucida Console',monospace;text-shadow:0 0 10px #39ff14;">
+⚡ Open Source Projects
+</h3>
+
+<div style="display:flex;flex-direction:column;gap:18px;margin-top:25px;">
+
+  <div style="display:flex;align-items:center;gap:12px;">
+    <div style="flex:1;height:3px;background:#39ff14;box-shadow:0 0 8px #39ff14;"></div>
+    <a href="https://github.com/datamino/CardioLogic" 
+       style="color:#39ff14;text-decoration:none;font-family:'Lucida Console',monospace;
+              font-size:18px;font-weight:700;text-shadow:0 0 8px #39ff14;">
+       💓 CardioLogic
+    </a>
+  </div>
+
+  <div style="display:flex;align-items:center;gap:12px;">
+    <div style="flex:1;height:3px;background:#39ff14;box-shadow:0 0 8px #39ff14;"></div>
+    <a href="https://github.com/datamino/emotion-detection-mlops" 
+       style="color:#39ff14;text-decoration:none;font-family:'Lucida Console',monospace;
+              font-size:18px;font-weight:700;text-shadow:0 0 8px #39ff14;">
+       😃 Emotion Detection MLOps
+    </a>
+  </div>
+
+  <div style="display:flex;align-items:center;gap:12px;">
+    <div style="flex:1;height:3px;background:#39ff14;box-shadow:0 0 8px #39ff14;"></div>
+    <a href="https://github.com/datamino/FYP-1"
+       style="color:#39ff14;text-decoration:none;font-family:'Lucida Console',monospace;
+              font-size:18px;font-weight:700;text-shadow:0 0 8px #39ff14;">
+       🧠 FYP-1 (Generalized Disease Prediction)
+    </a>
+  </div>
+
+</div>
+
+
+
 
 
 
