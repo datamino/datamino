@@ -104,7 +104,6 @@ h1 {
   -webkit-transition: all .5s;
   -moz-transition: all .5s;
   transition: all .5s;
- 
   font-size: 20px;           
   font-family:"Lucida Console", Monaco, monospace;
   font-weight: 900; 
@@ -131,7 +130,6 @@ h1 {
 .btn-twitter:hover > i {color: #55acee}
 .btn-twitter > span {background:#55acee;width:100px;}
 
-
 /*Google*/
 .btn-googleplus:hover > i {color: #dd4b39}
 .btn-googleplus > span {background: #dd4b39}
@@ -143,6 +141,30 @@ h1 {
 /*LinkedIn*/
 .btn-linkedin:hover > i {color: #007bb6}
 .btn-linkedin > span {background: #007bb6; width:100px;}
+
+/*Kaggle*/
+.btn-kaggle:hover > i {color: #20beff}
+.btn-kaggle > span {background: #20beff; width:100px;}
+
+/*Hugging Face*/
+.btn-huggingface:hover > i {color: #ffcc00}
+.btn-huggingface > span {background: #ffcc00; color:#333; width:140px;}
+
+/*Email*/
+.btn-email:hover > i {color: #d44638}
+.btn-email > span {background: #d44638; width:100px;}
+
+/*WhatsApp*/
+.btn-whatsapp:hover > i {color: #25D366}
+.btn-whatsapp > span {background: #25D366; width:120px;}
+
+/*Medium*/
+.btn-medium:hover > i {color: #000000}
+.btn-medium > span {background: #000000; width:100px;}
+
+/*GitHub*/
+.btn-github:hover > i {color: #333333}
+.btn-github > span {background: #333333; width:100px;}
 
 .info {
   text-align: center;
@@ -175,7 +197,6 @@ h1 {
   margin: 8px 0;
   color: #856404;
 }
-
 </style>
 </head>
 <body>
@@ -195,49 +216,84 @@ h1 {
     <p style="margin: 10px 0 0 0; font-size: 14px;">💡 Or use the "Download PNG" buttons below (may have minor rendering differences)</p>
   </div>
 
+  <!-- Existing Buttons -->
   <div class="button-wrapper">
     <div class="button-preview" id="facebook-btn">
       <a class="btn btn-icon btn-facebook" href="#"><i class="fa fa-facebook"></i><span>Facebook</span></a>
     </div>
-    <button class="download-btn" onclick="downloadButton('facebook-btn', 'facebook-button.png')">
-      ⬇️ Download PNG
-    </button>
+    <button class="download-btn" onclick="downloadButton('facebook-btn', 'facebook-button.png')">⬇️ Download PNG</button>
   </div>
 
   <div class="button-wrapper">
     <div class="button-preview" id="twitter-btn">
       <a class="btn btn-icon btn-twitter" href="#"><i class="fa fa-twitter"></i><span>&nbsp;Twitter</span></a>
     </div>
-    <button class="download-btn" onclick="downloadButton('twitter-btn', 'twitter-button.png')">
-      ⬇️ Download PNG
-    </button>
+    <button class="download-btn" onclick="downloadButton('twitter-btn', 'twitter-button.png')">⬇️ Download PNG</button>
   </div>
 
   <div class="button-wrapper">
     <div class="button-preview" id="googleplus-btn">
       <a class="btn btn-icon btn-googleplus" href="#"><i class="fa fa-google-plus"></i><span>Google+</span></a>
     </div>
-    <button class="download-btn" onclick="downloadButton('googleplus-btn', 'googleplus-button.png')">
-      ⬇️ Download PNG
-    </button>
+    <button class="download-btn" onclick="downloadButton('googleplus-btn', 'googleplus-button.png')">⬇️ Download PNG</button>
   </div>
 
   <div class="button-wrapper">
     <div class="button-preview" id="pinterest-btn">
       <a class="btn btn-icon btn-pinterest" href="#"><i class="fa fa-pinterest"></i><span>Pinterest</span></a>
     </div>
-    <button class="download-btn" onclick="downloadButton('pinterest-btn', 'pinterest-button.png')">
-      ⬇️ Download PNG
-    </button>
+    <button class="download-btn" onclick="downloadButton('pinterest-btn', 'pinterest-button.png')">⬇️ Download PNG</button>
   </div>
 
   <div class="button-wrapper">
     <div class="button-preview" id="linkedin-btn">
       <a class="btn btn-icon btn-linkedin" href="#"><i class="fa fa-linkedin"></i><span>LinkedIn</span></a>
     </div>
-    <button class="download-btn" onclick="downloadButton('linkedin-btn', 'linkedin-button.png')">
-      ⬇️ Download PNG
-    </button>
+    <button class="download-btn" onclick="downloadButton('linkedin-btn', 'linkedin-button.png')">⬇️ Download PNG</button>
+  </div>
+
+  <!-- ✅ New Buttons Added Below -->
+
+  <div class="button-wrapper">
+    <div class="button-preview" id="kaggle-btn">
+      <a class="btn btn-icon btn-kaggle" href="#"><i class="fa fa-bar-chart"></i><span>Kaggle</span></a>
+    </div>
+    <button class="download-btn" onclick="downloadButton('kaggle-btn', 'kaggle-button.png')">⬇️ Download PNG</button>
+  </div>
+
+  <div class="button-wrapper">
+    <div class="button-preview" id="huggingface-btn">
+      <a class="btn btn-icon btn-huggingface" href="#"><i class="fa fa-smile-o"></i><span>Hugging Face</span></a>
+    </div>
+    <button class="download-btn" onclick="downloadButton('huggingface-btn', 'huggingface-button.png')">⬇️ Download PNG</button>
+  </div>
+
+  <div class="button-wrapper">
+    <div class="button-preview" id="email-btn">
+      <a class="btn btn-icon btn-email" href="#"><i class="fa fa-envelope"></i><span>Email</span></a>
+    </div>
+    <button class="download-btn" onclick="downloadButton('email-btn', 'email-button.png')">⬇️ Download PNG</button>
+  </div>
+
+  <div class="button-wrapper">
+    <div class="button-preview" id="whatsapp-btn">
+      <a class="btn btn-icon btn-whatsapp" href="#"><i class="fa fa-whatsapp"></i><span>WhatsApp</span></a>
+    </div>
+    <button class="download-btn" onclick="downloadButton('whatsapp-btn', 'whatsapp-button.png')">⬇️ Download PNG</button>
+  </div>
+
+  <div class="button-wrapper">
+    <div class="button-preview" id="medium-btn">
+      <a class="btn btn-icon btn-medium" href="#"><i class="fa fa-medium"></i><span>Medium</span></a>
+    </div>
+    <button class="download-btn" onclick="downloadButton('medium-btn', 'medium-button.png')">⬇️ Download PNG</button>
+  </div>
+
+  <div class="button-wrapper">
+    <div class="button-preview" id="github-btn">
+      <a class="btn btn-icon btn-github" href="#"><i class="fa fa-github"></i><span>GitHub</span></a>
+    </div>
+    <button class="download-btn" onclick="downloadButton('github-btn', 'github-button.png')">⬇️ Download PNG</button>
   </div>
 
   <div class="info">
@@ -256,14 +312,10 @@ async function downloadButton(elementId, filename) {
   btn.disabled = true;
   
   try {
-    // Wait for fonts to fully load
     await document.fonts.ready;
-    
-    // Small delay to ensure rendering is complete
     await new Promise(resolve => setTimeout(resolve, 100));
     
     const buttonElement = element.querySelector('.btn');
-    
     const canvas = await html2canvas(buttonElement, {
       backgroundColor: null,
       scale: 4,
@@ -278,14 +330,12 @@ async function downloadButton(elementId, filename) {
       onclone: function(clonedDoc) {
         const clonedButton = clonedDoc.querySelector(`#${elementId} .btn`);
         if (clonedButton) {
-          // Force recalculation
           clonedButton.style.display = 'inline-flex';
           clonedButton.style.alignItems = 'center';
         }
       }
     });
     
-    // Download
     const link = document.createElement('a');
     link.download = filename;
     link.href = canvas.toDataURL('image/png', 1.0);
