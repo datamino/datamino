@@ -31,33 +31,23 @@
 
 </div>
 
-<!-- Neon sweep (green) -->
-<svg width="100%" height="40" viewBox="0 0 600 40" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <!-- soft glow -->
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="6" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-  </defs>
+<div style="position:relative;height:16px;background:rgba(57,255,20,.12);border-radius:8px;overflow:hidden;">
+  <div style="
+    position:absolute;top:0;left:-20%;
+    width:20%;height:100%;
+    border-radius:8px;
+    background: #39ff14;
+    box-shadow: 0 0 12px 6px #39ff1480, 0 0 22px 10px #39ff1433;
+    animation: neon-scan 2.4s linear infinite alternate;">
+  </div>
+</div>
 
-  <!-- track -->
-  <rect x="0" y="18" width="600" height="4" fill="#39ff14" opacity="0.15"/>
-
-  <!-- moving neon bar -->
-  <rect id="bar" x="-80" y="12" width="80" height="16" rx="8"
-        fill="#39ff14" filter="url(#glow)" opacity="0.95">
-    <!-- back-and-forth motion -->
-    <animate attributeName="x"
-             values="-80; 600; -80"
-             keyTimes="0; 0.5; 1"
-             dur="2.4s"
-             repeatCount="indefinite"/>
-  </rect>
-</svg>
+<style>
+@keyframes neon-scan {
+  from { transform: translateX(0%);   }
+  to   { transform: translateX(500%); }
+}
+</style>
 
 
 <h2>ℹ️ Project info</h2>
