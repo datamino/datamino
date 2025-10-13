@@ -116,10 +116,13 @@
 
 
 
-![Row 2](https://github.com/datamino/datamino/blob/main/assets/r1.png)
-![Row 2](https://github.com/datamino/datamino/blob/main/assets/r2.png)
-[![Row 2](https://github.com/datamino/datamino/blob/main/assets/r2.png)](https://github.com/datamino/CardioLogic)
 
+[![Row 1](https://github.com/datamino/datamino/blob/main/assets/v1.png)](https://github.com/datamino/CardioLogic)
+[![Row 2](https://github.com/datamino/datamino/blob/main/assets/v2.png)](https://github.com/datamino/CardioLogic)
+[![Row 3](https://github.com/datamino/datamino/blob/main/assets/v3.png)](https://github.com/datamino/CardioLogic)
+[![Row 4](https://github.com/datamino/datamino/blob/main/assets/v4.png)](https://github.com/datamino/CardioLogic)
+[![Row 5](https://github.com/datamino/datamino/blob/main/assets/v5.png)](https://github.com/datamino/CardioLogic)
+[![Row 6](https://github.com/datamino/datamino/blob/main/assets/v6.png)](https://github.com/datamino/CardioLogic)
 
 
 
