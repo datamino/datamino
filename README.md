@@ -8,7 +8,7 @@
 
 <div align="center">
 <a href="https://github.com/datamino/emotion-detection-mlops">
-  <img src="https://github.com/datamino/datamino/blob/main/assets/x.png" alt="Project 1" height="30px">
+  <img src="https://github.com/datamino/datamino/blob/main/assets/x.png" alt="Project 1" height="35px">
 </a>
 <div align="center">
 <a href="https://github.com/datamino/emotion-detection-mlops">
