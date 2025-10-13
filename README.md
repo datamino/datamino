@@ -34,7 +34,8 @@
 --- 
 
 <br>
-<h1>Top Projects</h1>
+
+<h1 align="center">Top Projects</h1>
 
 [![Row 1](https://github.com/datamino/datamino/blob/main/assets/v1.png)](https://github.com/datamino/CardioLogic)
 [![Row 2](https://github.com/datamino/datamino/blob/main/assets/v2.png)](https://github.com/datamino/CardioLogic)
