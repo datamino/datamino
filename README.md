@@ -69,6 +69,13 @@
   </tbody>
 </table>
 
+### 🚀 My Open Source Projects
+
+| Project | ⭐ Stars | 🍴 Forks | 🐞 Issues | 🔧 PRs |
+|:--------|:--------:|:--------:|:----------:|:------:|
+| [CardioLogic](https://github.com/datamino/CardioLogic) | ![Stars](https://img.shields.io/github/stars/datamino/CardioLogic?style=flat-square) | ![Forks](https://img.shields.io/github/forks/datamino/CardioLogic?style=flat-square) | ![Issues](https://img.shields.io/github/issues/datamino/CardioLogic?style=flat-square) | ![PRs](https://img.shields.io/github/issues-pr/datamino/CardioLogic?style=flat-square) |
+| [Emotion Detection MLOps](https://github.com/datamino/emotion-detection-mlops) | ![Stars](https://img.shields.io/github/stars/datamino/emotion-detection-mlops?style=flat-square) | ![Forks](https://img.shields.io/github/forks/datamino/emotion-detection-mlops?style=flat-square) | ![Issues](https://img.shields.io/github/issues/datamino/emotion-detection-mlops?style=flat-square) | ![PRs](https://img.shields.io/github/issues-pr/datamino/emotion-detection-mlops?style=flat-square) |
+
 
 
 
