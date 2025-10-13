@@ -14,7 +14,7 @@
 <a href="https://github.com/datamino/emotion-detection-mlops">
   <img src="https://github.com/datamino/datamino/blob/main/assets/fb.png" alt="Project 1" height="35px">
 </a>
-
+&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://github.com/datamino/emotion-detection-mlops">
   <img src="https://github.com/datamino/datamino/blob/main/assets/li.png" alt="Project 1" height="35px">
 </a>
