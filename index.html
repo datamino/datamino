@@ -160,6 +160,10 @@ h1 {
 .btn-whatsapp:hover > i {color: #166935}
 .btn-whatsapp > span {background:  #45a049;width:100px;}
 
+/*Kaggle*/
+.btn-kaggle:hover > i {color: #20beff}
+.btn-kaggle > span {background: #20beff; width:100px;}
+
 .info {
   text-align: center;
   margin-top: 30px;
@@ -291,6 +295,12 @@ h1 {
     ⬇️ Download PNG
   </button>
 </div>
+ <div class="button-wrapper">
+    <div class="button-preview" id="kaggle-btn">
+      <a class="btn btn-icon btn-kaggle" href="#"><i class="fa fa-bar-chart"></i><span>Kaggle</span></a>
+    </div>
+    <button class="download-btn" onclick="downloadButton('kaggle-btn', 'kaggle-button.png')">⬇️ Download PNG</button>
+  </div>
 
   <div class="info">
     💡 Click "Download PNG" buttons or use the DevTools method above for pixel-perfect screenshots
