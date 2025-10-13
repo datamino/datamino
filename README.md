@@ -5,6 +5,7 @@
     <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Roboto+Slab&color=%237E3ACE&size=30&center=true&vCenter=true&width=450&lines=I'm+Muhammad+Tayyab;He/him;BS+(AI)+Student;Fast+Nuces;MLOps+Engineer" alt="Muhammad Tayyab"></a>
 </div>
 
+
 <div align="center">
 <a href="https://github.com/datamino/emotion-detection-mlops">
   <img src="https://github.com/datamino/datamino/blob/main/assets/x.png" alt="Project 1" height="35px">
