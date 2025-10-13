@@ -31,6 +31,35 @@
 
 </div>
 
+<!-- Neon sweep (green) -->
+<svg width="100%" height="40" viewBox="0 0 600 40" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- soft glow -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- track -->
+  <rect x="0" y="18" width="600" height="4" fill="#39ff14" opacity="0.15"/>
+
+  <!-- moving neon bar -->
+  <rect id="bar" x="-80" y="12" width="80" height="16" rx="8"
+        fill="#39ff14" filter="url(#glow)" opacity="0.95">
+    <!-- back-and-forth motion -->
+    <animate attributeName="x"
+             values="-80; 600; -80"
+             keyTimes="0; 0.5; 1"
+             dur="2.4s"
+             repeatCount="indefinite"/>
+  </rect>
+</svg>
+
+
 <h2>ℹ️ Project info</h2>
 <div>
 <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Carol42/Carol42?color=181717&logo=github&style=for-the-badge&logoColor=181717" height="22px">
