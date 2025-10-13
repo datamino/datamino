@@ -34,6 +34,7 @@
 ---
 
 <h3>Open source projects</h3>
+
 [![Row 1](https://github.com/datamino/datamino/blob/main/assets/v1.png)](https://github.com/datamino/CardioLogic)
 [![Row 2](https://github.com/datamino/datamino/blob/main/assets/v2.png)](https://github.com/datamino/CardioLogic)
 [![Row 3](https://github.com/datamino/datamino/blob/main/assets/v3.png)](https://github.com/datamino/CardioLogic)
