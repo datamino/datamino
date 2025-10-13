@@ -16,6 +16,10 @@
 ![Git badge](https://img.shields.io/badge/git-black?logo=git)
 ![Git badge](https://img.shields.io/badge/git-black?logo=git)
 
+![Static Badge](https://img.shields.io/badge/mastodon-black?style=for-the-badge&logo=mastodon)
+![Static Badge](https://img.shields.io/badge/mastodon-black?style=for-the-badge&logo=mastodon)
+![Static Badge](https://img.shields.io/badge/mastodon-black?style=for-the-badge&logo=mastodon)
+
 <!-- 
 
 
