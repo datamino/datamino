@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:0F2027,50:203A43,100:2C5364&text=Muhammad%20Tayyab&fontColor=FFFFFF&fontSize=56&fontAlignY=36&desc=AI%20%26%20MLOps%20Engineer&descSize=18&descAlignY=56&animation=fadeIn" width="100%" alt="Muhammad Tayyab, AI and MLOps Engineer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:0F2027,50:203A43,100:2C5364&text=Muhammad%20Tayyab&fontColor=FFFFFF&fontSize=56&fontAlignY=36&desc=AI%20%C2%B7%20MLOps%20Engineer&descSize=18&descAlignY=56&animation=fadeIn" width="100%" alt="Muhammad Tayyab, AI and MLOps Engineer"/>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&pause=1200&color=14B8A6&center=true&vCenter=true&width=560&lines=I+build+RAG+systems+and+LLM+apps;I+turn+notebooks+into+production+pipelines;Data+is+everything." alt="I build RAG systems and LLM apps"/>
